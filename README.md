@@ -26,11 +26,11 @@ To make the program work with both upper and lower cases I could have added 26 m
 
 ## References
 ### Footnotes
-* *_This is not the most optimal generation mechanism and I intend to work on it in the future to implement a better method. Some simulation of the biological phenomenon of chromosome crossing over is what comes to mind now._
+* [*](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#the-reproduction-mechanism)_This is not the most optimal generation mechanism and I intend to work on it in the future to implement a better method. Some simulation of the biological phenomenon of chromosome crossing over is what comes to mind now._
 
-* **_In the current version of this project, the mutationRate is fixed to 0.1, but this rate is not optimal to every population size nor to every target word length. For the project's future I intend to create a function that determinates the optimal mutationRate based on the population size and target word lenth._
+* [**](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#the-reproduction-mechanism)_In the current version of this project, the mutationRate is fixed to 0.1, but this rate is not optimal to every population size nor to every target word length. For the project's future I intend to create a function that determinates the optimal mutationRate based on the population size and target word lenth._
 
-* ***_This demonstration is slowed down for better visualization of the gradual evolution proccess._
+* [***](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#demonstration)_This demonstration is slowed down for better visualization of the gradual evolution proccess._
 
 ### Bibliography
 
