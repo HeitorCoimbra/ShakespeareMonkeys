@@ -1,9 +1,9 @@
 ### shakespeare-monkeys
 # Genetic Algorithm applied to the Shakespeare Monkey theorem.
 ## Introduction
-There's an old theorem called the Shakespeare Monkey Theorem and it suggests that, with an infinite amount of time, a monkey randomly typing in a typewriter could actually recreate the famous writer's works.
+There's an old theorem called the Shakespeare Monkey Theorem and it suggests that, with an infinite amount of time, a monkey randomly typing in a typewriter could actually recreate the famous writer's works. 
 
-This project has the goal of simulating a population of randomly generated Prompts and, by using a Genetic Algorithm and artificial decentralized selection and reproduction system, evolve the population to a point in which some of the monkeys have written exactly the inputted Prompt.
+Sadly, I don't have an infinite amount of time nor do I have a monkey, so the point of this project is to use principles of evolution and genetic algorithm to generate, from a randomly generated "population" of sentences, a prompt identical to an inputed sentence through the simulation of natural selection and hereditary reproduction of prompts.
 
 The program is all written in Java. It works with both low or upper case alphabet letters and blankspaces(" ").
 ## How it works
