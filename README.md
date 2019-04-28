@@ -3,7 +3,7 @@
 ## Introduction
 There's an old theorem called the Shakespeare Monkey Theorem and it suggests that, with an infinite amount of time, a monkey randomly typing in a typewriter could actually recreate the famous writer's works. 
 
-Sadly, I don't have an infinite amount of time nor do I have a monkey, so the point of this project is to use principles of evolution and genetic algorithm to generate, from a randomly generated "population" of sentences, a prompt identical to an inputed sentence through the simulation of natural selection and hereditary reproduction of prompts.
+Sadly, I don't have an infinite amount of time nor do I have a monkey, so the point of this project is to use principles of evolution and genetic algorithm to create, from a randomly generated "population" of sentences, a prompt identical to an inputed sentence through the simulation of natural selection and hereditary reproduction of prompts.
 
 The program is all written in Java. It works with both low or upper case alphabet letters and blankspaces(" ").
 ## How it works
