@@ -1,5 +1,5 @@
 ### shakespeare-monkeys
-# Genetic Algorithm applied to the Shakespeare Monkey theorem.
+# Genetic Algorithm applied to the Shakespeare Monkey theorem
 ## Introduction
 There's an old theorem called the Shakespeare Monkey Theorem and it suggests that, with an infinite amount of time, a monkey randomly typing in a typewriter could actually recreate the famous writer's works. 
 
