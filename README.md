@@ -15,14 +15,14 @@ After sorting the first gen a while loop is initiated that does the following: T
 >"In generation %d the evolutionary line succeeded in producing the following Prompt: %s"
 
 ### The reproduction mechanism
-The reproduction mechanism has two steps. First it generates a new Prompt using half of each parents DNA* and then it mutates the DNA of the child by a mutationRate**. The mutationRate is the same throughout the population and it determines the probability of each character of the child to be replaced by a random character. This step is neccessary to promote diversity in the pool so it doesn't get staggered if it happens that all Prompts are missing the same match-char, for example.
+The reproduction mechanism has two steps. First it generates a new Prompt using half of each parents DNA[*](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#footnotes) and then it mutates the DNA of the child by a mutationRate[**](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#footnotes). The mutationRate is the same throughout the population and it determines the probability of each character of the child to be replaced by a random character. This step is neccessary to promote diversity in the pool so it doesn't get staggered if it happens that all Prompts are missing the same match-char, for example.
 
 ### The caseChange system
 To make the program work with both upper and lower cases I could have added 26 more chars to the selection pool, but that would make it run much slower and would not be the smartest choice. The system I chose to use does not take part in the Artificial Evolution process and it works by storing the input prompt's capitalized letters in a boolean array, makes changes the input prompt to all-lowercase and works with it this way. Then, when at least one generation has produced a perfect Prompt, a for loop corrects the cases of the appropriate letters back to the way they were in the originial input.
 
 ## Demonstration 
 ![](https://i.imgur.com/LEfgWga.gif)
-(***)
+([***](https://github.com/HeitorCoimbra/shakespeare-monkeys/blob/master/README.md#footnotes))
 
 ## References
 ### Footnotes
