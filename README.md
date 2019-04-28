@@ -8,7 +8,7 @@ Sadly, I don't have an infinite amount of time nor do I have a monkey, so the po
 The program is all written in Java. It works with both low or upper case alphabet letters and blankspaces(" ").
 ## How it works
 
-The way this genetic algorithm works is by creating a pool of 1000 randomly generated Prompts(of the size of the target word) containing only lowcase alphabet letters or spaces(" "). Each Prompt object has it's own DNA that corresponds to the string it holds, and a fitness score that corresponds to how many letters in the right position it matched to the target word. The population is then sorted and new generations are created from the first until the desired result is achieved.
+The way this genetic algorithm works is by creating a pool of 1000 randomly generated Prompts(of the size of the target word) containing only lowcase alphabet letters or spaces(" "). Each Prompt object has it's own DNA that corresponds to the string it holds, and a fitness score that corresponds to how many letters in the right position it matched to the target word. The population is then sorted(through Quicksort) and new generations are created from the first until the desired result is achieved.
 
 ### The generation 
 After sorting the first gen a while loop is initiated that does the following: The generation number is printed along with the top 5 prompts with the highest fitness scores of the gen from the 5# to the 1#. The next gen is then formed by replacing the worst 90% of the population by new Prompts that are the offspring of two of the 90th percentile Prompts. These two prompts are chosen at random, but the highest the fitness score of a Prompt the more likely it is to be a parent. This loop ends when a match-Prompt is generated, printing the message: 
@@ -22,13 +22,15 @@ To make the program work with both upper and lower cases I could have added 26 m
 
 ## Demonstration 
 ![](https://i.imgur.com/LEfgWga.gif)
-(*This demonstration is slowed down for better visualization.)
+9***)
 
 ## References
 ### Footnotes
 * *_This is not the most optimal generation mechanism and I intend to work on it in the future to implement a better method. Some simulation of the biological phenomenon of chromosome crossing over is what comes to mind now._
 
 * **_In the current version of this project, the mutationRate is fixed to 0.1, but this rate is not optimal to every population size nor to every target word length. For the project's future I intend to create a function that determinates the optimal mutationRate based on the population size and target word lenth._
+
+* ***_This demonstration is slowed down for better visualization of the gradual evolution proccess._
 
 ### Bibliography
 
